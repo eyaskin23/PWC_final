@@ -36,7 +36,7 @@ function setup() {
   // Returns back to home page
   let homeButton = createButton('Home');
   homeButton.position(10, 10);
-  homeButton.mousePressed(() => window.location.href = '/index.html');
+  homeButton.mousePressed(() => window.location.href = '/PWC_final/index.html');
   homeButton.style('font-size', '16px');
   homeButton.style('padding', '10px 20px');
 
