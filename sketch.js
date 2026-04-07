@@ -83,7 +83,7 @@ function buildPuzzle() {
   let squareSize   = min(sourceWidth, sourceHeight); // crop the image to a square
 
   // calculate the size of the board and the side panels
-  let boardSize  = min(width * 0.55, height * 0.9) * 0.95;
+  let boardSize = min(width * 0.55, height * 0.6) * 0.95;
   sidePanelWidth = (width - boardSize) / 2;
   puzzleLeft = sidePanelWidth; // x position of board left 
   puzzleTop = (height - boardSize) / 2; // y position of board top 
